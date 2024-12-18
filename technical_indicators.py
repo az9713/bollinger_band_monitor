@@ -1,6 +1,6 @@
 import numpy as np
 import pandas as pd
-
+### TODO: To add comprehensive key, values for all optional parameters.
 class TechnicalIndicators:
     def __init__(self, data):
         """
