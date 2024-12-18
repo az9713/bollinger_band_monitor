@@ -139,6 +139,8 @@ def monitor_bollinger_bands(root_dir, file_pattern='.us.txt', log_level=1):
         return
 
 if __name__ == "__main__":
-    root_directory = r"C:\Users\simon\Downloads\a\llm_projects\stock_project\d_us_txt__mini"
+    # Updated root directory after reorganizing folders
+    #root_directory = r"C:\Users\simon\Downloads\a\llm_projects\stock_project\d_us_txt__mini"
+    root_directory = r"C:\Users\simon\Downloads\a\ml_applications\stock_project\d_us_text__mini"
     monitor_bollinger_bands(root_directory, log_level=1)
   
